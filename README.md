@@ -25,7 +25,7 @@ The second pivot table showed how many campaigns were successful, failed, or can
 
 ![alt text](Excel_Pics/Img1-3.png)
 
-We produced a final pivot table to display information on the number of campaigns that were successful, failed, canceled, or are currently live per month. We added filters so that the pivot table can be filtered based on category and year. We created a pivot-chart line graph to visualize the data.
+We produced a final pivot table to display information on the number of campaigns that were successful, failed, or canceled per month. We added filters so that the pivot table can be filtered based on category and year. We created a pivot-chart line graph to visualize the data.
 
 ![alt text](Excel_Pics/Img1-4.png)
 
