@@ -1,6 +1,6 @@
-Excel Database Challenge
+# Excel Database Challenge
 
-Background
+# Background
 
 Crowdfunding platforms like Kickstarter and Indiegogo have been growing in success and popularity since the late 2000s. From independent content creators to famous celebrities, more and more people are using crowdfunding to launch new products and generate buzz, but not every project has found success.
 
@@ -8,13 +8,13 @@ To receive funding, the organization must meet or exceed an initial goal, so man
 
 In this project, we were tasked with organizing the database by splitting values for easier readability and analysis and creating conditional formatting, creating pivot tables and graphs to examine which categories performed better, and calculating descriptive statistics for the successful and failed outcomes.
 
-Database Organization
+# Database Organization
 
 We applied conditional formatting to the 'outcome' column to easily identify which projects were successful, failed, canceled, or currently live. We added a 'percent funded' column formula that calculated much money a campaign made relative to its initial funding goal. We also applied conditional formatting to this new 'percent funded' column, and it scaled with the project earnings relative to the funding they received. After condition formatting was applied to both columns, we split the 'category & subcategory' colum into two columns: 'category' and 'subcategory' for a more percise analysis of each project. For instance, 'music/rock' in the 'category & subcategory' column would be split into 'music' for the category and 'rock' for the sub-category. Lastly, we converted the dates in the 'deadline' and 'launched_at' columns from Unix timestamps into excel date format.
 
 
 
-Pivot Tables
+# Pivot Tables
 
 We generated three pivot tables to provide a better breakdown of the data. The first pivot table showed how many campaigns were successful, failed, canceled, or are currently live per category. We added filters so the pivot table can be filtered by country. To visualize the category data, we created a stacked-column pivot chart to display the amount of campaigns were successful, failed, canceled, or are currently live in each category.
 
@@ -30,13 +30,13 @@ We produced a final pivot table to display information on the number of campaign
 ![alt text](Excel_Pics/Img1-4.png)
 
 
-Goal Analysis
+# Goal Analysis
+
 We created a breakdown of both the amount and percentage of the successful, failed, and canceled projects per funding goal. We added a line graph to illustrate the relationship between relationship between the percent of successful projects and the funding goal.
 
 ![alt text](Excel_Pics/Img1.png)
 
-Statistical Analysis
-
+# Statistical Analysis
 
 Given the provided data, here are three conclusions we can draw from these specific crowdfunding campaigns:
 1.	The two-month span from June to July had a higher success rate for crowd funding relative the average success rate over each month throughout the year.
