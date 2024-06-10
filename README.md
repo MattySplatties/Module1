@@ -17,7 +17,7 @@ We applied conditional formatting to the 'outcome' column to easily identify whi
 Pivot Tables
 
 We generated three pivot tables to provide a better breakdown of the data. The first pivot table showed how many campaigns were successful, failed, canceled, or are currently live per category. We added filters so the pivot table can be filtered by country. To visualize the category data, we created a stacked-column pivot chart to display the amount of campaigns were successful, failed, canceled, or are currently live in each category.
-![alt text](Excel_Pics/Img 1-2.png)
+![alt text](Excel_Pics/Img1-2.png)
 
 c:\Users\matth\OneDrive\Desktop\Img 1-2.png
 The second pivot table showed how many campaigns were successful, failed, or canceled, or are currently live per sub-category. We added filters so the pivot table can be filtered by country and primary category. To visualize the sub-category data, we designed a stacked-column pivot chart to display the amount of campaigns were successful, failed, canceled, or are currently live in these sub-categories.
